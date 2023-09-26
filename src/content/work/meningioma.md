@@ -22,5 +22,5 @@ In conclusion, this study has enabled the automation of meningioma segmentation.
 
 The entire code developed is available on my Github repository. Additionally, you can also find the scientific poster created during the internship bellow.
 
-<a href="/assets/Poster.ppx.zip" download>Download the poster</a>
+<a href="/assets/Poster.pdf" download>Download the poster</a>
 
