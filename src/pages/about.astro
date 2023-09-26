@@ -1,0 +1,117 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="About | Mateo Zoughebi" description="About Mateo">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About Me "
+				tagline="Read this section to learn about me and my background."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="AI image"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p align="justify">
+						As a curious person, I first focused on network architectures. 
+						The discovery of the machine and deep learning led to a significant change in my professional interests. 
+						After being introduced to these subjects, an internship at the CHU of Quebec at the University of Laval in meningioma 
+						segmentation on MRIs confirmed my choice of orientation.
+						This internship provided me with the opportunity to present my segmentation work at two seminars and create a scientific poster.
+						My daily work in France is focused on improving my knowledge in this field.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Education</h2>
+				<div class="content">
+					<p align="justify">During the first part of my scholar cursus, I did a preparatory school at Charlemagne and Saint-Louis in Paris.
+						Currently, I am studying engineering at Télécom sud Paris, 
+						I follow the High Tech Imaging Master. This specialization allows the deepening of 
+						methods and techniques used in the field of image, video and 3Dimensions. 
+						By participating in this master, I can enhance my knowledge in computer vision, artificial intelligence, multimedia indexing, digital content protection, or compression. In addition, this master proposes to enhance our ability to work in groups through group projects and thematic conferences in multiple disciplines like biotechnology, security, and video.
+					</p>
+					<p align="justify">In parallel, I am doing a second master at the Polytechnic Institute of Paris in virtual and augmented reality (VAR). The latter provides students to develop their knowledge of the fundamental concepts and technical skills of AR/VR to develop innovative industrial applications. 
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Skills</h2>
+				<div class="content">
+					<p>Python, C, JAVA, Bash, HTML/CSS, BLENDER.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
