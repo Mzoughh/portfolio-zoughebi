@@ -1,7 +1,7 @@
 ---
 title: Implementation of a 3D-UNET network for brain tumor segmentation
 publishDate: 2023-9-13 00:00:00
-img: /assets/meningioma.png
+img: /assets/Meningiome/meningioma.png
 img_alt: Meningioma.
 description: |
   In collaboration with Laval University, I worked on an internship project at the Quebec research laboratory .
@@ -22,5 +22,5 @@ In conclusion, this study has enabled the automation of meningioma segmentation.
 
 The entire code developed is available on my Github repository. Additionally, you can also find the scientific poster created during the internship bellow.
 
-<a href="/assets/Poster.pdf" download>Download the poster</a>
+<a href="/assets/Meningiome/Poster.pdf" download>Download the poster</a>
 

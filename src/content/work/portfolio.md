@@ -1,7 +1,7 @@
 ---
 title: How this portfolio was created
 publishDate: 2023-08-13 00:00:00
-img: /assets/portfolio.webp
+img: /assets/portfolio/portfolio.webp
 img_alt: PORTFOLIO
 description: |
   Laboratory A, Human Computer interface (VAR)
@@ -37,7 +37,7 @@ To host this website, I employed a GitHub repository and the Versel platform. Fu
 
 -8 Use Template-Specific Commands: Depending on the template, there may be specific commands or scripts provided to help you work with and customize it. Refer to the README for guidance on using these commands.
 
-![command line](/assets/command.png)
+![command line](/assets/portfolio/command.png)
 
 Preview Locally: To see how your template looks and behaves locally, run the command npm run dev. This will start a local server on a personal port. The local server will automatically update whenever you save changes to your HTML and CSS files, similar to using the Live Server extension in Visual Studio Code.
 
