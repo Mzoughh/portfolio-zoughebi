@@ -18,6 +18,7 @@ tags:
 <span style="font-size: 25px; margin-right: 20px;">[Gestalt Laws](#Gestalt_Laws)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Dark Design Patterns ](#Dark_Design_Patterns)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Don Norman ](#Don_Norman)</span>
+<span style="font-size: 25px; margin-right: 20px;">[Ivan Sutherland's vison ](#Ivan_vision)</span>
 
 
 
@@ -80,5 +81,11 @@ tags:
     <img src='/assets/HCI/Don_Norman.jpeg' alt='Don Norman' style='width: 80%;'>
 </div>
 
+
+<h4 id="Ivan_vision" style="margin-top: 70px;">Ivan Sutherland's vison</h4>
+
+<div style="flex: 1;">
+        <p style=" text-indent: 20px; text-align: justify;"> <strong>Ivan Sutherland's</strong> early anticipations are clearly reflected in the advancements that have already materialized. These include manual input devices like light pens and joysticks, which he had envisioned for interacting with computers. These tools are now integral components of computer interfaces, enabling precise interactions with digital content. Furthermore, Sutherland's foresight regarding typewriter keyboards as a common computer input method has been realized in the prevalent use of keyboards for computer interaction.Looking to the future, the text speculates on exciting prospects. It envisions displays with kinesthetic capabilities, where users can physically feel forces through devices like joysticks, bringing a tactile dimension to the digital world. The idea of eye-tracking interfaces, allowing users to control computers by the direction of their gaze, offers novel and potentially transformative possibilities. Moreover, the text entertains the notion of displays defying the constraints of physical reality, creating new opportunities for visualizing complex concepts and models. Ultimately, the text introduces the tantalizing concept of a "Wonderland" where computers can simulate and control matter, opening doors to entirely immersive and interactive digital environments. These forward-looking ideas signify the ongoing evolution and expansion of human-computer interaction possibilities that may shape the technology landscape in the future.</p>
+</div>
 
 
