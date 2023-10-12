@@ -45,7 +45,8 @@ const { Content } = await entry.render();
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} style={{ maxHeight: '450px' }} />}
+
 					<div class="content">
 						<Content />
 					</div>
@@ -89,7 +90,7 @@ const { Content } = await entry.render();
 	}
 
 	.content {
-		max-width: 65ch;
+		max-width: 80ch;
 		margin-inline: auto;
 	}
 
@@ -110,6 +111,7 @@ const { Content } = await entry.render();
 		box-shadow: var(--shadow-sm);
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
+		
 	}
 
 	.content :global(blockquote) {
