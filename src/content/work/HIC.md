@@ -19,6 +19,8 @@ tags:
 <span style="font-size: 25px; margin-right: 20px;">[Dark Design Patterns ](#Dark_Design_Patterns)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Don Norman ](#Don_Norman)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Ivan Sutherland's vison ](#Ivan_vision)</span>
+<span style="font-size: 25px; margin-right: 20px;">[Innovation City Scooter](#City_Scooter)</span>
+
 
 
 
@@ -78,7 +80,7 @@ tags:
         <p style=" text-indent: 20px; text-align: justify;"> <strong>Don Norman</strong> , a renowned cognitive psychologist and researcher, is a prominent figure in the field of Human-Computer Interaction (HCI) and user-centered design. Born on December 25, 1935, he has left an indelible mark on the design world through his influential book, "The Design of Everyday Things." This work explores the fundamental principles of intuitive design and ergonomics, advocating for products and user interfaces that naturally cater to users' needs. One of his significant contributions lies in promoting user-centered design, urging designers to put themselves in users' shoes to create more user-friendly experiences. His theory of cognitive load has been instrumental in designing effective user interfaces, helping to minimize the cognitive burden on users. As an educator, Don Norman played a pivotal role in founding the Department of Cognitive Science at the University of California, San Diego, where he inspired and trained future HCI researchers. His legacy endures, as his dedication to usability has significantly improved our daily interactions with technology, making products more intuitive and accessible to a broad audience. His influence in the HCI field is unquestionable, and his work continues to serve as a reference for researchers and designers worldwide.</p>
 </div>
 <div style="display: flex; justify-content: center;">
-    <img src='/assets/HCI/Don_Norman.jpeg' alt='Don Norman' style='width: 80%;'>
+    <img src='/assets/HCI/Don_Norman.jpeg' alt='Don Norman' style='width: 60%;'>
 </div>
 
 
@@ -89,3 +91,19 @@ tags:
 </div>
 
 
+<h4 id="City_Scooter" style="margin-top: 70px;">City Scooter: A new HCI innovation </h4>
+
+<div style="text-align: center;">
+    <iframe width="660" height="415" src="https://www.youtube.com/embed/CxOVLhYKx3k" frameborder="0" allowfullscreen style="margin: 0 auto; display: block;"></iframe>
+</div>
+
+<div style="flex: 1;">
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;"><strong>CityScouter: A Novel HCI Application Overview:</strong></p>
+    <ol style="list-style-type: decimal; padding-left: 40px;">
+        <li><strong>Comprehensive Urban Feature Analysis:</strong> CityScouter utilizes multimodal data to quantitatively analyze various aspects of urban characteristics, including the city's physical environment and the nature of its residents. This means that users can gain a deeper understanding of the city they live in or are visiting.</li>
+        <li><strong>Travel Optimization:</strong> By combining data on the city's atmosphere, location information, and user search history, CityScouter can assist people in optimizing their travels by suggesting places that align with their specific preferences and needs. This can make travel more efficient and enjoyable.</li>
+        <li><strong>Mobile-Friendly:</strong> CityScouter is designed to be user-friendly on mobile devices, allowing users to easily access this information on the go. This can streamline daily life by providing relevant information when users need it most.</li>
+        <li><strong>Expert Insights:</strong> By providing expert opinions on urban development, CityScouter can help users make more informed decisions about their urban environment. This can contribute to creating more pleasant and functional cities for residents.</li>
+        <li><strong>Enhanced User Experience:</strong> CityScouter offers an improved user experience by enabling users to better understand their urban surroundings. This can reduce the stress associated with travel and make city life more enjoyable.</li>
+    </ol>
+</div>
