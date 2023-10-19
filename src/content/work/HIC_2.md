@@ -14,6 +14,7 @@ tags:
 ### This article is the second part of the analysis of the lecture for the course.
 
 <span style="font-size: 25px; margin-right: 20px;">[VR Exemples](#VR_Exemples)</span>
+<span style="font-size: 25px; margin-right: 20px;">[Prototype](#Prototype)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Evolution of smartphone shape](#SShape)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Computer of 21st century](#Computer)</span>
 <span style="font-size: 25px; margin-right: 20px;">[Mixed Reality](#MR)</span>
@@ -26,11 +27,40 @@ tags:
     <p style="text-indent: 20px; text-align: justify; font-size: 18px;"><strong>Augmented Reality for Medical Assistance</strong>: This idea focuses on the use of augmented reality to assist healthcare professionals. Doctors could use AR devices to obtain real-time information about patients, visualize crucial medical data directly in their field of vision, and even collaborate remotely with other experts to diagnose complex cases.</p>
     <p style="text-indent: 20px; text-align: justify; font-size: 18px;"><strong>AR for Repair and Maintenance</strong>: In this concept, augmented reality would be used to enhance the skills of maintenance technicians. By wearing AR glasses, technicians could access repair diagrams and instructions directly in front of them, simplifying the maintenance process and reducing equipment downtime.</p>
 </div>
-
-
 <div style="display: flex; justify-content: center;">
     <img src='/assets/HCI/medical-vr-training.jpg' alt='VR medical' style='width: 80%;'>
 </div>
+
+<h4 id="Prototype" style="margin-top: 70px;">Prototype</h4>
+
+
+<div style="flex: 1;">
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        <strong>AR Language Enhancer:</strong><br>
+        It is a wearable device in the form of smart glasses with augmented reality features. The goal of this device is to enhance intercultural communication in real-time.
+    </p>
+    <ul style="list-style-type: none;">
+        <li style="margin-bottom: 10px;">
+            <strong>Features:</strong>
+            <ul style="list-style-type: disc; margin-left: 20px;">
+                <li>Real-Time Translation: When a person wears these glasses and interacts with someone speaking a foreign language, the device uses voice recognition and automatic translation to display subtitles in the user's language directly in their field of vision.</li>
+                <li>Advanced Facial Recognition: The glasses are equipped with facial recognition software that identifies the person you are talking to and displays relevant information about them, such as their name, title, company, etc.</li>
+                <li>Contextualization: The device also analyzes the context of the conversation, such as location, time, and nearby events, to provide relevant contextual information, enabling smoother and more meaningful communication.</li>
+                <li>Display of Relevant Information: The glasses can display real-time information, such as weather updates, restaurant recommendations, translations of signs, etc., directly in the user's field of vision.</li>
+                <li>Gesture Interaction: The user can interact with the interface using simple gestures, making it intuitive to use.</li>
+                <li>Customization: The device allows the user to customize the appearance and style of subtitles, as well as how information is displayed on the screen.</li>
+            </ul>
+        </li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        This prototype aims to enhance communication skills and the experience of people traveling in foreign countries or interacting with individuals from different cultures. It aligns with the theme of enhancing human abilities in the age of augmented reality by making intercultural communication more fluid and accessible. You could draw a diagram of these smart glasses in action, with subtitles and contextual information displayed in the user's field of vision.
+    </p>
+</div>
+
+<div style="display: flex; justify-content: center;">
+    <img src='/assets/HCI/Glasses.jpg' alt='Don Norman' style='width: 90%;'>
+</div>
+
 
 <h4 id="SShape" style="margin-top: 70px;">Evolution of smartphone shape</h4>
 
