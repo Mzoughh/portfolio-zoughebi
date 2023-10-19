@@ -1,6 +1,6 @@
 ---
 title: Discover Unity
-publishDate: 2023-08-13 00:00:00
+publishDate: 2023-11-13 00:00:00
 img: /assets/Unity/Unity_baneer.webp
 img_alt: Unity 
 description: |
@@ -15,8 +15,8 @@ tags:
 
 
 <span style="font-size: 25px; margin-right: 20px;">[Installation](#Installation)</span>
-
-
+<span style="font-size: 25px; margin-right: 20px;">[Tutoriel](#Tutoriel)</span>
+<span style="font-size: 25px; margin-right: 20px;">[VR version](#VR)</span>
 
 <h4 id="Installation" style="margin-top: 70px;">Installation</h4>
 
@@ -59,6 +59,7 @@ tags:
 <img src='/assets/Unity/Interface.png' alt='interface' style='width: 100%; height: 400px;'>
 </div>
 
+<h4 id="Tutoriel" style="margin-top: 70px;">Tutoriel Roll a Ball </h4>
 
 
 <div style="flex: 1;">
@@ -87,7 +88,81 @@ tags:
   Your browser does not support the video tag.
 </video>
 
+<h4 id="VR" style="margin-top: 70px;">VR version</h4>
 
 
+<div style="flex: 1;">
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Converting Unity's Roll a Ball Game to Virtual Reality (VR)
+    </p>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Introduction:
+    </p>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        In this comprehensive tutorial, we'll guide you through the process of adapting Unity's classic Roll a Ball game for Virtual Reality (VR) environments. By following these steps, you can take your existing game and make it VR-ready. This tutorial assumes that you have a basic understanding of Unity and have access to a VR development environment.
+    </p>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 1: Create a Prefab
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Open your existing Roll a Ball project in Unity.</li>
+        <li style="text-align: justify; font-size: 18px;">Select all the game objects that make up your game, including the ball, platforms, and collectible objects.</li>
+        <li style="text-align: justify; font-size: 18px;">To make the game VR-ready, create a prefab from your selection by right-clicking on the selection and choosing "Create Prefab." This prefab will serve as the foundation for your VR adaptation.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 2: VR Project Setup
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Begin by launching a new Unity project or use an existing one that already has VR support integrated (such as Oculus or HTC Vive). If you're working on this as part of an educational program, you may have received a VR project setup from your instructor.</li>
+        <li style="text-align: justify; font-size: 18px;">Import the necessary VR assets and SDKs into your Unity project.</li>
+        <li style="text-align: justify; font-size: 18px;">Ensure that you have VR-compatible scripts and interactions included in your project. These scripts can either come with the VR SDK or be custom-developed by you or your instructor.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 3: Import Scripts, Materials, and Inputs
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Copy any custom scripts and assets from your original Roll a Ball project to maintain the game's functionality and style.</li>
+        <li style="text-align: justify; font-size: 18px;">Import the materials used in your original game to ensure consistency in the visual design.</li>
+        <li style="text-align: justify; font-size: 18px;">Modify your game's input mechanisms to align with the VR controllers, replacing keyboard inputs with VR controller interactions.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 4: Rescale the Prefab
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Drag and drop the Roll a Ball prefab you created in Step 1 into your VR project's scene.</li>
+        <li style="text-align: justify; font-size: 18px;">Resize and position the prefab to fit within the VR environment. This process may require some adjustments and experimentation to achieve the desired scale.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 5: Define Interaction Points
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">In your VR project, create empty GameObjects at strategic locations within the scene where players will interact with your Roll a Ball game. These empty GameObjects represent interaction points.</li>
+        <li style="text-align: justify; font-size: 18px;">Place these interaction points where players can grab or interact with platforms or objects within your game.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 6: Reassign Scripts and Materials
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Reconnect the scripts and materials you imported in Step 3 to your Roll a Ball prefab in the VR project.</li>
+        <li style="text-align: justify; font-size: 18px;">Ensure that any references to game objects, materials, or components are correctly linked to the VR scene and the Roll a Ball prefab.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Step 7: Adjust Colliders and Child Objects
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">Modify or replace colliders on your game objects to better suit VR interactions, possibly using more complex colliders for a realistic feel.</li>
+        <li style="text-align: justify; font-size: 18px;">Organize your scene by making the Roll a Ball prefab a child of the floor or platform within the VR environment where players will interact with the game.</li>
+    </ul>
+    <p style="text-indent: 20px; text-align: justify; font-size: 18px;">
+        Conclusion:
+    </p>
+    <ul>
+        <li style="text-align: justify; font-size: 18px;">By diligently following these steps, you can successfully adapt your Unity Roll a Ball game to be compatible with VR. It's essential to test your VR experience thoroughly within a headset to ensure a seamless and immersive player interaction.</li>
+    </ul>
+</div>
 
 
+<video controls width="100%">
+  <source src="/assets/Unity/VR.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
